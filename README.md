@@ -17,11 +17,13 @@ The longest task is that of finding most common features for every language (~ 1
 - 𝐹1 𝑆𝑐𝑜𝑟𝑒= 2∗ 𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛∗ 𝑅𝑒𝑐𝑎𝑙𝑙𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛+𝑅𝑒𝑐𝑎𝑙𝑙
 
 In general, the model performs with 98% Precision, 98% Recall and 98% F1-Score. 
-![alt text](https://github.com/kiranramnath007/languageDetector/blob/master/Confusion%20Matrix.PNG)
 
+![alt text](https://github.com/kiranramnath007/languageDetector/blob/master/Classification%20report.PNG)
 
 ### Confusion matrix
 The performance is also examined using the confusion matrix, that tells us the distribution of predicted labels v/s actual labels.
+
+![alt text](https://github.com/kiranramnath007/languageDetector/blob/master/Confusion%20Matrix.PNG)
 
 ### Novel ideas
 Using all bigrams, trigrams, and words will blow up the feature space and impact performance adversely. Hence the features are first shortlisted on the basis of most frequent features. This results in optimal performance both in terms of model accuracy and time taken.
