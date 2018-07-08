@@ -17,7 +17,7 @@ The longest task is that of finding most common features for every language (~ 1
 - 𝐹1 𝑆𝑐𝑜𝑟𝑒= 2∗ 𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛∗ 𝑅𝑒𝑐𝑎𝑙𝑙𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛+𝑅𝑒𝑐𝑎𝑙𝑙
 
 In general, the model performs with 98% Precision, 98% Recall and 98% F1-Score. 
-
+![alt text](https://github.com/kiranramnath007/languageDetector/blob/master/Confusion%20Matrix.PNG)
 
 
 ### Confusion matrix
